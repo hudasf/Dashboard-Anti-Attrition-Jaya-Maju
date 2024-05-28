@@ -5,7 +5,7 @@ simple python ML with Random Forest to help Jaya Jaya Maju company identify fact
 
 ## Business Understanding
 
-Jaya Jaya Maju merupakan salah satu perusahaan multinasional yang telah berdiri sejak tahun 2000. Ia memiliki lebih dari 1000 karyawan yang tersebar di seluruh penjuru negeri. 
+Jaya Jaya Maju merupakan salah satu perusahaan multinasional yang telah berdiri sejak tahun 2000. Ia memiliki lebih dari 1000 karyawan yang tersebar di seluruh penjuru negeri.   
 
 Walaupun telah menjadi menjadi perusahaan yang cukup besar, Jaya Jaya Maju masih cukup kesulitan dalam mengelola karyawan. Hal ini berimbas tingginya attrition rate (rasio jumlah karyawan yang keluar dengan total karyawan keseluruhan) hingga lebih dari 10%.
 
@@ -63,7 +63,7 @@ Beberapa rekomendasi untuk mengurangi Attrition rate pada perusahaan.
 3. breakdown faktor-faktor utama penyebab attrition, lakukan penyesuaian mengurangi chance dari attrition karyawan.
 4. Lakukan program jemput bola bagi karyawan yang terprediksi akan attrition. lakukan konseling dan perbaikan yang dibutuhkan.
 
-DASHBOARD & Database instance Metabase : [DOWNLOAD](https://drive.google.com/file/d/1XQFXEU_XKBAkYoUzfJSCweR9aSZ80MJ-/view?usp=sharing)
-USERNAME : vnhyde@gmail.com
+DASHBOARD & Database instance Metabase : [DOWNLOAD](https://drive.google.com/file/d/1XQFXEU_XKBAkYoUzfJSCweR9aSZ80MJ-/view?usp=sharing)  
+USERNAME : vnhyde@gmail.com  
 PASSWORD : metabase123
 
