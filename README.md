@@ -37,12 +37,32 @@ tujuan project :
 
 Sumber data: File dapat diakses [DISINI](https://drive.google.com/drive/folders/1wd6S5H8qHrdjIySyc-U64AvO3Y-27Hrc?usp=drive_link)
 
-Setup environment:
+Setup environment libary:
+joblib==1.2.0
 matplotlib==3.7.2
 pandas==2.2.2
 scikit_learn==1.3.0
 seaborn==0.13.2
 SQLAlchemy==2.0.21
+
+
+## Setup Environment - Anaconda
+```
+conda create --name main-ds python=3.9
+conda activate main-ds
+pip install -r requirements.txt
+```
+
+#### Setup Environment - Shell/Terminal
+```
+mkdir dashboard_jayamaju
+cd dashboard_jayamaju
+pipenv install
+pipenv shell
+pip install -r requirements.txt
+```
+
+
 
 
 ## Business Dashboard
