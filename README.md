@@ -64,19 +64,23 @@ dan fitur utama dapat melihat prediksi karyawan yang akan attrite dengan probabi
 
 Pembuatan Dashboard khusus harapannya dapat menanggulangi issue attrition pada perusahaan. perusahaan dapat dengan real-time memantau faktor-faktor utama yang menyebabkan karyawan attrite.
 dalam dashboard juga ada fitur prediksi bagi pegawai yang akan attrite. 
-hal ini dapat disikapi dengan beberapa sikap oleh perusahaan :
-1. Menyiapkan pengganti atau kaderisasi untuk posisi pegawai tersebut.
-2. lakukan konseling.
-3. solusikan permasalahan karyawan, terutama yang menjadi faktor terbesar karyawan tsb untuk Attrite.
+
+melalui model machine learning, dapat diketahui berikut adalah top 10 faktor utama karyawan melakukan attrition
+![image](https://github.com/hudasf/Dashboard-Anti-Attrition-Jaya-Maju/assets/17269323/fe581389-5c6b-4957-97c4-c8c2e57b66c4)
+secara umum, dapat diketahui faktor terbesar adalah perihal salary. hal ini lebih berdampak kepada karyawan yang memiliki umur dan pengalaman bekerja diperusahaan yang lebih lama. dapat disimpulkan, umur biasanya berbanding lurus dengan pengalaman yang dimiliki, namun jika pengalaman dan pendapatan tidak memiliki perkembangan yang selaras, akan menyebabkan karyawan berpikir untuk melakukan attrition.
+beberapa faktor tambahan adalah Jarak dari rumah ke kantor dan overtime yang dilakukan, faktor ini menyebabkan karyawan kelelahan saat bekerja, ketika melakukan overtime dan ditambah menempuh perjalanan yang cukup jauh dari rumah ke kantor.
+dengan mencari solusi dua permasalahan diatas dapat dengan baik menurunkan potensi attrition dari karyawan, dan secara langsung menekan attrition rate dari perusahaan Jaya Jaya Maju
+
 harapannya dengan ini Attrition di perusahaan dapat ditanggulangi dengan baik. dan perusahaan mampu mengantisipasi jika terjadi attrition karyawan.
 
 ### Rekomendasi Action Items (Optional)
 
 Beberapa rekomendasi untuk mengurangi Attrition rate pada perusahaan. 
-1. Membuat kategorisasi bagi attrition alami seperti faktor Pensiun, Meninggal dan dsb.
-2. fokus tanggulangi attrition dari karyawan, seperti resign, mangkir, dsb.
-3. breakdown faktor-faktor utama penyebab attrition, lakukan penyesuaian mengurangi chance dari attrition karyawan.
+1. Membuat kategorisasi bagi attrition alami seperti faktor Pensiun, Meninggal dan dsb. 
+2. dengan membuat kategorisasi nomor 1, perusahaan dapat fokus tanggulangi faktor attrition internal seperti resign, mangkir, hal ini dapat dilakukan dengan cara melakukan konseling dan pemantauan secara rutin, terutama untuk karyawan yang terprediksi akan attrition dalam dashboard.
+3. breakdown faktor-faktor utama penyebab attrition. lakukan penyesuaian yang dibutuhkan untuk penyebab attrition utama. contoh jika memang issue masalah salary, perusahaan dapat melakukan evaluasi salary structure apakah sudah sesuai dengan market, dan melakukan perbaikan.
 4. Lakukan program jemput bola bagi karyawan yang terprediksi akan attrition. lakukan konseling dan perbaikan yang dibutuhkan.
+5. menyiapkan model karyawan matriks, sehingga jika ada posisi karyawan yang attrite, perusahaan dapat dengan mudah melakukan switch dan kaderisasi dengan adjacent karyawan sekitar. dengan hal ini operasional dan skill transfer antar karyawan dapat terjalin, dan menjamin business sustainability dari sisi talent dan karyawan.
 
 DASHBOARD & Database instance Metabase : [DOWNLOAD](https://drive.google.com/file/d/1XQFXEU_XKBAkYoUzfJSCweR9aSZ80MJ-/view?usp=sharing)  
 USERNAME : vnhyde@gmail.com  
