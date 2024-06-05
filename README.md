@@ -7,28 +7,43 @@ simple python ML with Random Forest to help Jaya Jaya Maju company identify fact
 
 Jaya Jaya Maju merupakan salah satu perusahaan multinasional yang telah berdiri sejak tahun 2000. Ia memiliki lebih dari 1000 karyawan yang tersebar di seluruh penjuru negeri.   
 
-Walaupun telah menjadi menjadi perusahaan yang cukup besar, Jaya Jaya Maju masih cukup kesulitan dalam mengelola karyawan. Hal ini berimbas tingginya attrition rate (rasio jumlah karyawan yang keluar dengan total karyawan keseluruhan) hingga lebih dari 10%.
+Walaupun telah menjadi menjadi perusahaan yang cukup besar, Jaya Jaya Maju masih cukup kesulitan dalam mengelola karyawan. Hal ini berimbas tingginya attrition rate (rasio jumlah karyawan yang keluar dengan total karyawan keseluruhan) hingga lebih dari 10%. 
+bila ini terus terjadi maka employee expertise dari perusahaan akan perlahan tergerus, sehingga menyisakan karyawan dengan skill yang ordinary serta dead wood. hal ini dapat mengakibatkan menurunnya kompetensi perusahaan yang dalam jangka panjang mengurangi daya saing dan keuntungan perusahaan. hal ini akan berpengaruh kepada business sustainability secara umum. maka dari itu solusi untuk mengurangi potensi attrition hadir dalam bentuk dashboard ini
 
 ### Permasalahan Bisnis
 
-1. Attrition yang tinggi pada perusahaan
-2. Banyak faktor yang terlibat, namun tidak dapat menentukan faktor utama
+1. Attrition yang tinggi pada perusahaan.
+2. banyak faktor attrition yang terlibat, namun tidak mengetahui faktor utama.
+3. kesulitan menentukan faktor utama untuk menurunkan attrition rate.
+4. tidak ada notice/antisipasi untuk karyawan yang berpotensi attrite, sehingga membuat perusahaan tidak siap.
 
 ### Cakupan Proyek
 
+lingkup project : 
 1. Pembuatan model machine learning prediction untuk memprediksi apakah karyawan yang masih aktif akan _attrite_
-2. Pembuatan Dashboard sederhana untuk memantau kondisi pegawai terutama untuk mencegah _attrite_ dengan prediksi dari machine learning
+2. Pembuatan Dashboard sederhana untuk visualisasi data memantau kondisi pegawai, terutama untuk mencegah _attrite_ dengan prediksi dari machine learning.
+
+batasan project : 
+1. menggunakan analisa dan pengolahan data bersumber dari data yang diberikan.
+2. pemodelan penggunakan bahasa pemrograman python
+3. database menggunakan supabase
+4. dashboard menggunakan metabase(versi local)
+
+tujuan project : 
+1. pemantauan kondisi Human Resources Jaya Jaya Maju secara realtime melalui dashboard dan visualisasi data.
+2. tabel prediksi attrite untuk karyawan aktif. dapat dimanfaatkan oleh manajemen perusahaan untuk mengetahui siapa saja karyawan yang berpotensi attrite dan melakukan sikap yang diperlukan.
 
 ### Persiapan
 
 Sumber data: File dapat diakses [DISINI](https://drive.google.com/drive/folders/1wd6S5H8qHrdjIySyc-U64AvO3Y-27Hrc?usp=drive_link)
 
 Setup environment:
-matplotlib==3.8.1
-numpy==1.26.2
-pandas==2.1.3
-seaborn==0.13.0
-tensorflow==2.15.0
+matplotlib==3.7.2
+pandas==2.2.2
+scikit_learn==1.3.0
+seaborn==0.13.2
+SQLAlchemy==2.0.21
+
 
 ## Business Dashboard
 
